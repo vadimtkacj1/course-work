@@ -1,0 +1,41 @@
+# Віртуальне середовище Python
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Конфігураційні файли
+.env
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE та редактори
+.vscode/
+.idea/
+*.swp
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+
+# Папка build
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Бази даних
+*.sqlite3
+*.db
